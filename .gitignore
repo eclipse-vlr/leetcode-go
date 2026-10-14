@@ -1,0 +1,12 @@
+# Go executables and test binaries
+*.exe
+*.exe~
+*.test
+*.out
+coverage.out
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
