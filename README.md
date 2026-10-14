@@ -14,8 +14,8 @@
 
 | № | LeetCode | Уровень | Статус |
 |---|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | решена |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Не начата |
+| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | Решена |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | Решена |
 | 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | Не начата |
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | Не начата |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | Не начата |
