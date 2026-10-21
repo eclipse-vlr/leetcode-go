@@ -1,57 +1,36 @@
-# LeetCode на Go
+# Алгоритмы на Go
 
-Решения алгоритмических задач на Go для подготовки к собеседованиям Go Backend Developer.
+Здесь я собираю решения задач с LeetCode и готовлюсь к техническим собеседованиям на Go Backend Developer.
 
-## Как работаю
+Стараюсь не просто получить правильный ответ: сначала разбираю идею, затем пишу код и тесты, проверяю крайние случаи и оцениваю сложность решения.
 
-1. Разбираю условие и примеры.
-2. Придумываю алгоритм и оцениваю сложность.
-3. Реализую решение на Go.
-4. Пишу табличные тесты и проверяю граничные случаи.
-5. Запускаю `go test -count=1 ./...` и отправляю решение на GitHub.
+Это учебный репозиторий. Основные backend-проекты — [LinkForge](https://github.com/eclipse-vlr/linkforge) и [PC Club Admin](https://github.com/eclipse-vlr/pc-club-admin).
 
-## Arrays & Hash Map
+## Решённые задачи
 
-| № | Задача | Сложность | Статус |
-|---|---|---|---|
-| 217 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy | ✅ Решена |
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy | ✅ Решена |
-| 242 | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy | ✅ Решена |
-| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium | ✅ Решена |
-| 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | Medium | ⏳ Следующая |
+| Тема | Задача | Сложность |
+|---|---|---|
+| Arrays & Hashing | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | Easy |
+| Arrays & Hashing | [Two Sum](https://leetcode.com/problems/two-sum/) | Easy |
+| Arrays & Hashing | [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | Easy |
+| Arrays & Hashing | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | Medium |
 
-## Структура проекта
+**В работе:** [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/). Не отмечаю задачу решённой, пока код и тесты не опубликованы в репозитории.
 
-```text
-leetcode-go/
-├── arrays-hashing/
-│   ├── README.md
-│   ├── contains_duplicate.go
-│   ├── contains_duplicate_test.go
-│   ├── two_sum.go
-│   ├── two_sum_test.go
-│   ├── valid_anagram.go
-│   ├── valid_anagram_test.go
-│   ├── group_anagrams.go
-│   └── group_anagrams_test.go
-├── .gitignore
-├── go.mod
-└── README.md
-```
-
-## Запуск тестов
+## Как проверяю решения
 
 Из корня репозитория:
 
-```sh
+```powershell
 go test -count=1 -v ./...
 ```
 
-## Изученные подходы
+Для каждой задачи по возможности добавляю табличные тесты. Они помогают проверять не только обычный пример, но и пустые входные данные, повторяющиеся элементы и другие граничные случаи.
 
-- Hash Set: поиск повторений за один проход
-- Hash Map: хранение значений и индексов
-- Frequency Counting: подсчёт частоты символов
-- Grouping by Key: группировка анаграмм по отсортированному ключу
+## Структура
 
-В задачах сохраняются исходные решения и тесты, чтобы можно было вернуться к ним и повторить алгоритмы.
+Решения по массивам и словарям лежат в [`arrays-hashing/`](arrays-hashing/). Код и тесты находятся рядом, чтобы удобно было запускать и повторять задачи.
+
+## Что изучаю
+
+Хеш-таблицы, подсчёт частот, работу со срезами и строками, два указателя и скользящее окно. Постепенно добавляю новые темы по мере практики.
