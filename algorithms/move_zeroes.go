@@ -1,4 +1,4 @@
-package arrays_hashing
+package algorithms
 
 func moveZeroes(nums []int) {
 	left := 0

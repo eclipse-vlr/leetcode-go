@@ -1,4 +1,4 @@
-package arrays_hashing
+package algorithms
 
 func twoSum(nums []int, target int) []int {
 	seen := make(map[int]int)
